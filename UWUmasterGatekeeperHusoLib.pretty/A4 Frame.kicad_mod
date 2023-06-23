@@ -1,0 +1,28 @@
+(footprint "A4 Frame" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
+  (tags "kailh,choc")
+  (property "Sheetfile" "TheENDGAME Topmount Rev 0.2.kicad_sch")
+  (property "Sheetname" "")
+  (attr through_hole)
+  (fp_text reference "SW2" (at 0 -8.255 180) (layer "Dwgs.User") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b8bc56ca-8682-438d-8004-32478480586f)
+  )
+  (fp_text value "SW_Push" (at 0 8.25 180) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a3139ae8-b301-4c29-8392-9355161819ef)
+  )
+  (fp_rect (start -148.5 -105) (end 148.5 105)
+    (stroke (width 0.15) (type default)) (fill none) (layer "User.7") (tstamp c4b38bfc-3819-4191-8988-436faeb8e80c))
+  (model "/Users/Home/Documents/GitHub/LIbrarys/AlbinoZebra-Pretty-Master-Huso-UWU-Lib/marbastlib-main/3d/HS_Kailh_Choc.step"
+    (offset (xyz 10 5.95 -1.9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "/Users/Home/Documents/GitHub/LIbrarys/AlbinoZebra-Pretty-Master-Huso-UWU-Lib/keyswitch-kicad-library/3dmodels/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

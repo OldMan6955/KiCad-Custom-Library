@@ -1,0 +1,18 @@
+(footprint "breakaway-mousebites 5.2mm 0.8mm 4holes" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5B90EF0D)
+  (attr through_hole board_only)
+  (fp_text reference "REF**" (at 0 -3.048) (layer "Dwgs.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e0169cea-3629-4466-b967-eb2020e14ac5)
+  )
+  (fp_text value "breakaway-mousebites 5.2mm 0.8mm 4holes" (at 0 -4.75) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2ecffdaf-0504-4162-bc5e-259d99b5f6ab)
+  )
+  (fp_line (start -2.6 0) (end 2.6 0) (layer "Dwgs.User") (width 0.15) (tstamp 3098618e-4ffe-4e26-8890-1a14f3658f97))
+  (pad "" np_thru_hole circle (at -1.95 0) (size 0.9 0.9) (drill 0.9) (layers F&B.Cu *.Mask) (tstamp 04b3c1ad-7955-49d4-99a7-b9e0ac0d6576))
+  (pad "" np_thru_hole circle (at 1.95 0) (size 0.9 0.9) (drill 0.9) (layers F&B.Cu *.Mask) (tstamp 874613bd-a219-4b73-b77e-9d07420f7da6))
+  (pad "" np_thru_hole circle (at -0.64 0) (size 0.9 0.9) (drill 0.9) (layers F&B.Cu *.Mask) (tstamp a6bae5b6-5653-4e66-aa11-2894d989ebb5))
+  (pad "" np_thru_hole circle (at 0.64 0) (size 0.9 0.9) (drill 0.9) (layers F&B.Cu *.Mask) (tstamp ea2d3d31-3a7e-480e-acca-f20916c37560))
+)
